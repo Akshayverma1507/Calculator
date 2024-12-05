@@ -7,56 +7,46 @@
 
 </head>
 
-<body class="flex justify-center items-center h-96 mt-20 ">
+<body class="flex justify-center items-center h-96 mt-20 rounded-full">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <div class=" shadow-2xl p-10 border-2 border-blacks border-black bg-blue-100">
         <input class="flex justify-center mt-20" id="inputbox" type="text">
 
-        <div class="w-96 border-black border-2 m-3 shadow-2xl p-10">
-            <div> <button onclick="input1 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">1</button>
-                <button onclick="input2 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">2</button>
-                <button onclick="input3 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">3</button>
+        <div class="ml-3 ">
+            <div> <button onclick="input1 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">1</button>
+                <button onclick="input2 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">2</button>
+                <button onclick="input3 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">3</button>
                 <button onclick="inputsin ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">sin</button>
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">sin</button>
             </div>
-            <div><button onclick="input4 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">4</button>
-                <button onclick="input5 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">5</button>
-                <button onclick="input6 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">6</button>
+            <div><button onclick="input4 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">4</button>
+                <button onclick="input5 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">5</button>
+                <button onclick="input6 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">6</button>
                 <button onclick="inputcos ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">cos</button>
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">cos</button>
             </div>
-            <div><button onclick="input7 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">7</button>
-                <button onclick="input8 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">8</button>
-                <button onclick="input9 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">9</button>
+            <div><button onclick="input7 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">7</button>
+                <button onclick="input8 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">8</button>
+                <button onclick="input9 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">9</button>
                 <button onclick="inputtan ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">tan</button>
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">tan</button>
             </div>
             <div>
-                <button onclick="inputdot ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">.</button>
-                <button onclick="input0 ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">0</button>
-                <button onclick="calculate ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">=</button>
+                <button onclick="inputdot ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">.</button>
+                <button onclick="input0 ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">0</button>
+                <button onclick="calculate()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">=</button>
+                <button onclick="inputminus ()"
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">-</button>
 
-                <button onclick="inputmainus ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">-</button>
-                <button onclick="inputmainus ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">*</button>
-                <button onclick="inputplus ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">+</button>
-                <button onclick="divade ()"
-                    class="mr-5 mt-10 w-9 border-2 bg-blue-500 text-white rounded-full">/</button>
+            </div>
+            <div>
+                <button onclick="inputmultiply ()"
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">*</button>
+                <button onclick="inputplus ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">+</button>
+                <button onclick="inputdivide ()"
+                    class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">/</button>
+                <button onclick="inputAC ()" class="w-9 m-2 border-2 border-black bg-blue-300 rounded-full">AC</button>
 
             </div>
 
